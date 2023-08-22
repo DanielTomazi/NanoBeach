@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topo {
+  background-color: #00cad1;
+  width: 100%;
+}
+
+.topo .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 60px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.topo-titulo {
+  font-weight: 600;
+  font-size: 28px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topo-titulo a {
+  display: flex;
+}
+
+.topo-logo {
+  height: 60px;
+}
+
+.topo-links {
+  display: flex;
+}
+
+.topo-links a {
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.topo-links a:hover {
+  color: #004b4c;
+}
+
+@media (max-width: 425px) {
+  .topo .container { flex-direction: column; }
+  .topo-titulo { margin: 10px 0; }
+  .topo-links { width: 100%; border-top: 1px solid #009fa5; justify-content: space-around;}
+}
+
+.secao-topo {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.secao-topo p {
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.secao-largura-limitada {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.secao-largura-limitada p{
+  font-size: 16px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+h1,h2
+{
+  color: #fff;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.secao-background-capa {
+  min-height: 500px;
+  background-image: url('img/assets_img-fundo.jpg');
+  background-size: cover;
+}
+.secao-background-conteudo {
+  text-align: right;
+  padding: 50px 20px;
+  background: #00000085;
+  border-radius: 40px;
+}
+
+.secao-conteudo {
+  padding: 50px 20px;
+  box-sizing: border-box;
+  border: 2px solid #dcdcdc;
+  margin-top: 10px;
+  border-radius: 40px;
+}
+
+.img-conteudo {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.secao-conteudo span {
+  border-left: 1px solid;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.grupo-campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.grupo-campo input, .grupo-campo select {
+  margin: 12px 0;
+  height: 25px;
+}
+
+.secao-conteudo fieldset {
+  margin: 12px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.secao-conteudo button {
+  width: 100%;
+  height: 32px;
+  background: #00000085;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.radio {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.radio div {
+  display: flex;
+  align-items: center;
+  width: 120px !important;
+}
+
+.radio input {
+  width: 15px;
+}
+
+.radio label {
+  margin: 0 0 0 8px;
+}
+
+.localiza {
+  width: 790px;
+  list-style: none;
+  margin: 50px auto 50px auto;
+}
+
+.paragrafo-contato {
+  text-align: center;
+  font-size: 16px;
+}
+
+.lista-contato {
+  width: 210px;
+  list-style: none;
+  margin: 40px auto 40px;
+}
+
+.item-lista-contato {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.item-contato {
+  color: #1d80c1;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+footer {
+  width: 100%;
+  background: #5d15d1;
+  margin: 32px 0 0 0;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.rodape-conteudo {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+}
+
+.rodape-conteudo h2 {
+  color: #fff;
+  margin: 0 0 15px 0;
+  font-size: 20px;
+}
+
+.rodape-conteudo div {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.rodape-conteudo img {
+  width: 18px;
+}
+
+.rodape-conteudo span {
+  color: #fff;
+  font-size: 14px;
+  margin: 0 0 0 10px;
+}
+
+@media(max-width: 815px)
+{
+  .img-conteudo {
+      width: 100%;
+  }
+}
+
+.sobre {
+  background: #00000085;
+  border-radius: 40px;
+  color: #fff;
+  padding: 10px;
+}
+
+.pedido {
+  background: #00000085;
+  border-radius: 40px;
+  color: #fff;
+  padding: 10px;
+}
+
+.localfinal {
+  background: #00000085;
+  border-radius: 40px;
+  color: #fff;
+  padding: 10px;
+}
+
+.suporte {
+  width: 790px;
+  list-style: none;
+  margin: 50px auto 50px auto;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  border: 2px solid #dcdcdc;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.sup {
+  background: #00000085;
+  border-radius: 40px;
+  color: #fff;
+  padding: 10px;
+}
+
+footer {
+  background-color: #00cad1;
+}

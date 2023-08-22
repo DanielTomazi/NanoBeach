@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Nano Beach</title>
+  <link rel="stylesheet" href="estilos.css">
+  
+</head>
+<body>
+  <header class="topo">
+    <div class="container">
+       
+
+        <nav class="topo-links">
+            <a href="#sobre">Sobre</a>
+            <a href="#pedido">Pedido</a>
+            <a href="#localizacao">Localização</a>
+            <a href="#suporte">Suporte</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        
+    </div>
+</header>
+
+  <section class="secao-background-capa">
+    <div class="secao-background-conteudo">
+      <div class="secao-largura-limitada">
+        <h1>Nano Beach</h1>
+        <h2>A sua praia artificial</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao-largura-limitada secao-conteudo">
+    <section id="sobre" class="secao-sobre">
+    <h3 class="sobre">Sobre nós</h3>
+    <p>Somos uma construtora e instaladora de praias artificiais em território nacional, desde 2018 trazendo alegria e diversão para as famílias, nós da NanoBeach valorizamos nossos consumidores e tornamos as experiências deles únicas com nossos atendimentos e serviços internos. Estamos em busca de expansão no território brasieliro e garantimos satisfação e segurança para nossos consumidores, pois dversão segura é com a família Nakamura.</p>
+    <p>Nós da Nano Beach utilizamos atendimento 100% robótico e por IA para que nossos clientes tenham praticidade, basta o cliente realizar um pedido escolhendo a praia que deseja ficar, dia, duração e informar seus dados que mandaremos um e-mail confirmando e finalizando a compra. Está esperando o que? Venha se divertir conosco.</p>
+    <p><span>Nosso objetivo é trazer uma experiência inesquecivel para você.</span></p>
+    <p><span>Nosso atendimento é 100% feitos por robôs e inteligência artificial.</span></p>
+    <p><span>Para se divertir conosco, basta realizar um pedido com suas informações e preferências que confirmaremos por e-mail a escolha.</span></p>
+    </section>
+  </section>
+
+  <main>
+    <section class="secao-largura-limitada secao-conteudo">
+      <section id="pedido" class="secao-pedido">
+      <h3 class="pedido">Faça Seu Pedido</h3>
+      <p>Preencha os campos abaixo e analisaremos seus dados.<br>Se tudo estiver correto te mandaremos um e-mail confirmando o pedido.</p>
+      <form method="post" action="enviar.php">
+
+        <fieldset>
+          <legend>Dados pessoais</legend>
+          <div class="grupo-campo">
+            <label>Nome</label>
+            <input type="text" name="nome" placeholder="digite seu nome" required>
+          </div>
+          <div class="grupo-campo">
+            <label>E-mail</label>
+            <input type="email" name="email" placeholder="e-mail para contato" required>
+          </div>
+          <div class="grupo-campo">
+            <label>Data de Nascimento</label>
+            <input type="date" name="data_nascimento" required>
+          </div>
+          <div class="grupo-campo">
+            <label>Telefone</label>
+            <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Pedidos</legend>
+          <div class="grupo-campo">
+            <label for="data_ida">Data da ida</label> 
+            <input id="ida" type="date" name="data_ida">
+        </div>
+        <div class="grupo-campo">
+            <label for="data_volta">Data da volta</label>
+            <input id="volta" type="date" name="data_volta">
+        </div>
+        <div class="grupo-campo">
+          <label>Pessoas</label>
+          <input type="number" name="quantidade_pessoas" placeholder="quantidade_pessoas" required>
+        </div>
+        <label>Reservar Mesa?</label>
+            <div class="radio">
+                <div>
+                  <input id="mesa-sim" type="radio" name="reservar_mesa" value="s">
+                  <label for="mesa-sim">Sim</label>
+                </div>
+                <div>
+                  <input id="mesa-nao" type="radio" name="reservar_mesa" value="n">
+                  <label for="mesa-nao">Não</label>
+                </div>
+            </div>
+            <br>
+            <label>Preferências</label>
+                            <div class="radio">
+                                <div>
+                                    <input id="comida" type="checkbox" name="preferencias" value="comida">
+                                    <label for="comida">Comida</label>
+                                </div>
+                                <div>
+                                    <input id="wifi" type="checkbox" name="preferencias" value="wifi">
+                                    <label for="wifi">Wi-Fi</label>
+                                </div>
+                                <div>
+                                    <input id="garagem" type="checkbox" name="preferencias" value="garagem">
+                                    <label for="garagem">Garagem</label>
+                                </div>
+                            </div>
+        </fieldset>
+        <button type="submit" nome="submit" value="Enviar">Enviar Dados</button>
+      </form>
+    </section>
+    </section>
+    <div id="localizacao" class="localiza">
+      <h3 class="localfinal">Localização</h3>
+      <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7346.254844548052!2d-43.364712467659004!3d-22.98234139602229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2ed54ec2e1%3A0x4431d262cad1d163!2sAv.%20Ayrton%20Senna%2C%203000%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022775-904!5e0!3m2!1spt-BR!2sbr!4v1642532754862!5m2!1spt-BR!2sbr" width="800" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div id="suporte">
+      <h3 class="sup">Suporte</h3>
+    <p class="paragrafo paragrafo-contato">Se ficou interessado em nos conhecer ou se tiver dúvidas entre em contato conosco através de um dos e-mails abaixo:</p>
+            <ul class="lista-contato">
+                <li class="item-lista-contato"><a class="item-contato" href="mailto:officegeral@email.com">Escritório Geral</a></li>
+                <li class="item-lista-contato"><a class="item-contato" href="mailto:officeduvida@email.com">Escritório Dúvidas</a></li>
+                <li class="item-lista-contato"><a class="item-contato" href="mailto:officesuporte@email.com">Escritório Suporte</a></li>
+            </ul>
+          </div>
+  </main>
+
+
+  <footer>
+    <div id="contato" class="rodape limite-largura">
+      <div class="rodape-conteudo">
+          <h2>Contato</h2>
+          <div>
+              <img src="img/local.png" title="Icone local" alt="Icone local">
+              <span>Rio de Janeiro, RJ</span>
+          </div>
+          <div>
+              <img src="img/telefone.png" title="Icone telefone" alt="Icone telefone">
+              <span>Telefone: (21) 9999-9999</span>
+          </div>
+          <div>
+              <img src="img/email.png" title="Icone email" alt="icone email">
+              <span>Email: contato@nanobeach.com.br</span>
+          </div>
+      </div>
+      <div class="rodape-conteudo">
+          <h2>Nossas Redes Sociais</h2>
+          <div>
+              <img src="img/fb.png" title="Icone facebook" alt="Icone facebook">
+              <span>/NanoBeachOfficial</span>
+          </div>
+          <div>
+              <img src="img/ig.png" title="Icone instagram" alt="Icone instagram">
+              <span>@NanoBeachOfficial</span>
+          </div>
+          <div>
+              <img src="img/tt.png" title="Icone twitter" alt="Icone twitter">
+              <span>@NanoBeachOfficial</span>
+          </div>
+      </div>
+  </div>
+  </footer>
+</body>
+</html>
