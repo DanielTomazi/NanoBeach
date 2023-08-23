@@ -2,6 +2,7 @@
 ****
 Projeto realizado na universidade utilizando as linguagens HTML, CSS e PHP. 
 Créditos as pessoas contribuentes desse código/projeto:
+- Daniel Tomazi - GitHub: DanielTomazi
 - Marcio Galvão - GitHub: MarcioSilva007
 - Marcos Vinicius - GitHub: marcosfrontleal
 - Paulo Henrique - GitHub: PaulofrontHenrique
