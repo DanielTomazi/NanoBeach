@@ -10,4 +10,4 @@ Projeto realizado na universidade utilizando as linguagens HTML, CSS e PHP. Cré
 - Paulo Henrique - GitHub: PaulofrontHenrique
 - Fernando Bilha - GitHub: liinqy
 *****
-O projeto trata-se de uma empresa que oferece aos seus clientes serviço de praias artificiais para que seus clientes utilizem em locais onde não há praias, como em Goias ou outras regiões não litorâneas.
+O projeto trata-se de uma empresa que oferece aos seus clientes serviço de praias artificiais para que seus clientes utilizem em locais onde não há praias, como em Goias ou outras regiões não litorâneas do Brasil.
