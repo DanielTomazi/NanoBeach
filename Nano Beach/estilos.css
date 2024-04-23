@@ -27,6 +27,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 10px 0;
+  text-align: center; /* Adicionado para centralizar o texto em telas menores */
 }
 
 .topo-titulo a {
@@ -178,11 +179,22 @@ h3 {
   margin: 0 0 0 8px;
 }
 
-.localiza {
+.localiza,
+.lista-contato,
+.suporte {
   width: 100%;
   max-width: 800px;
   list-style: none;
   margin: 50px auto 50px auto;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  border: 2px solid #dcdcdc;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.localiza {
+  margin-bottom: 0; /* Remover margem inferior adicional */
 }
 
 .paragrafo-contato {
@@ -270,18 +282,6 @@ footer {
 }
 
 .suporte {
-  width: 100%;
-  max-width: 800px;
-  list-style: none;
-  margin: 50px auto 50px auto;
-  padding: 50px 20px;
-  box-sizing: border-box;
-  border: 2px solid #dcdcdc;
-  margin-top: 10px;
-  border-radius: 4px;
-}
-
-.sup {
   background: #00000085;
   border-radius: 40px;
   color: #fff;
