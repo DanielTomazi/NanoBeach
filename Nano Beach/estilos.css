@@ -6,42 +6,31 @@ body {
 
 .topo {
   background-color: #00cad1;
-  width: 100%;
 }
 
 .topo .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  min-height: 60px;
-  padding: 0 10px;
-  margin: 0 auto;
+  padding: 10px;
 }
 
 .topo-titulo {
   font-weight: 600;
   font-size: 24px;
   color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
   text-align: center;
 }
 
 .topo-titulo a {
-  display: flex;
-}
-
-.topo-logo {
-  height: 60px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .topo-links {
   display: flex;
-  flex-direction: column;
-  border-top: none;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .topo-links a {
@@ -49,14 +38,6 @@ body {
   text-decoration: none;
   color: #fff;
   font-weight: 600;
-}
-
-@media (min-width: 768px) {
-  .topo-links {
-    flex-direction: row;
-    border-top: 1px solid #009fa5;
-    justify-content: flex-end;
-  }
 }
 
 .secao-topo {
@@ -67,32 +48,32 @@ body {
   padding: 20px;
   font-size: 22px;
   font-weight: bold;
-  box-sizing: border-box;
+  text-align: center;
 }
 
 .secao-largura-limitada {
-  width: 100%;
   max-width: 800px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .secao-largura-limitada p {
   font-size: 16px;
   text-align: justify;
-  line-height: 25px;
 }
 
 h1,
 h2 {
   color: #fff;
   margin: 0;
+  text-align: center;
 }
 
 h3 {
   margin: 0;
-  text-align: center;
   font-size: 24px;
   font-weight: bold;
+  text-align: center;
 }
 
 .secao-background-capa {
@@ -103,46 +84,38 @@ h3 {
 
 .secao-background-conteudo {
   text-align: right;
-  padding: 50px 20px;
-  background: #00000085;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 40px;
+  color: #fff;
 }
 
 .secao-conteudo {
-  padding: 50px 20px;
+  padding: 50px;
   box-sizing: border-box;
   border: 2px solid #dcdcdc;
-  margin-top: 10px;
+  margin: 20px auto;
   border-radius: 40px;
 }
 
 .img-conteudo {
   width: 100%;
-  height: 180px;
-  object-fit: contain;
+  height: auto;
+  max-height: 180px;
 }
 
 .secao-conteudo span {
+  display: block;
   border-left: 1px solid;
   padding-left: 10px;
   font-size: 16px;
-}
-
-.grupo-campo {
-  display: flex;
-  flex-direction: column;
 }
 
 .grupo-campo input,
 .grupo-campo select {
   margin: 12px 0;
   height: 25px;
-}
-
-.secao-conteudo fieldset {
-  margin: 12px 0;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
 }
 
 .secao-conteudo button {
@@ -155,16 +128,14 @@ h3 {
 }
 
 .radio {
-  width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   margin-top: 10px;
 }
 
 .radio div {
   display: flex;
   align-items: center;
-  width: 120px !important;
 }
 
 .radio input {
@@ -178,26 +149,19 @@ h3 {
 .localiza,
 .lista-contato,
 .suporte {
-  width: 100%;
-  max-width: 800px;
   list-style: none;
-  margin: 50px auto 50px auto;
-  padding: 50px 20px;
-  box-sizing: border-box;
+  padding: 20px;
+  margin: 20px auto;
   border: 2px solid #dcdcdc;
-  margin-top: 10px;
   border-radius: 4px;
 }
 
-.paragrafo-contato {
-  text-align: center;
-  font-size: 16px;
+.localiza {
+  max-width: 800px;
 }
 
 .lista-contato {
-  width: 210px;
-  list-style: none;
-  margin: 40px auto 40px;
+  max-width: 300px;
 }
 
 .item-lista-contato {
@@ -213,55 +177,7 @@ h3 {
 }
 
 footer {
-  width: 100%;
-  background: #5d15d1;
-  margin: 32px 0 0 0;
-}
-
-.rodape {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
-.rodape-conteudo {
-  display: flex;
-  flex-direction: column;
-  padding: 15px 0;
-}
-
-.rodape-conteudo h2 {
-  color: #fff;
-  margin: 0 0 15px 0;
-  font-size: 20px;
-}
-
-.rodape-conteudo div {
-  display: flex;
-  align-items: center;
-  margin: 5px 0;
-}
-
-.rodape-conteudo img {
-  width: 18px;
-}
-
-.rodape-conteudo span {
-  color: #fff;
-  font-size: 14px;
-  margin: 0 0 0 10px;
-}
-
-.sobre,
-.pedido,
-.localfinal,
-.suporte {
-  background: #00000085;
-  border-radius: 40px;
-  color: #fff;
-  padding: 10px;
-}
-
-footer {
   background-color: #00cad1;
+  padding: 20px 0;
+  text-align: center;
 }
