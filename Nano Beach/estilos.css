@@ -27,7 +27,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 10px 0;
-  text-align: center; /* Adicionado para centralizar o texto em telas menores */
+  text-align: center;
 }
 
 .topo-titulo a {
@@ -52,10 +52,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  .topo .container {
-    flex-direction: row;
-  }
-
   .topo-links {
     flex-direction: row;
     border-top: 1px solid #009fa5;
@@ -193,10 +189,6 @@ h3 {
   border-radius: 4px;
 }
 
-.localiza {
-  margin-bottom: 0; /* Remover margem inferior adicional */
-}
-
 .paragrafo-contato {
   text-align: center;
   font-size: 16px;
@@ -260,27 +252,9 @@ footer {
   margin: 0 0 0 10px;
 }
 
-.sobre {
-  background: #00000085;
-  border-radius: 40px;
-  color: #fff;
-  padding: 10px;
-}
-
-.pedido {
-  background: #00000085;
-  border-radius: 40px;
-  color: #fff;
-  padding: 10px;
-}
-
-.localfinal {
-  background: #00000085;
-  border-radius: 40px;
-  color: #fff;
-  padding: 10px;
-}
-
+.sobre,
+.pedido,
+.localfinal,
 .suporte {
   background: #00000085;
   border-radius: 40px;
