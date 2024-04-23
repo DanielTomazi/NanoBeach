@@ -60,6 +60,7 @@ body {
 .secao-largura-limitada p {
   font-size: 16px;
   text-align: justify;
+  letter-spacing: 0.5px; /* Ajuste o espaçamento entre as palavras */
 }
 
 h1,
