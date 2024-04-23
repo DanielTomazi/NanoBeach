@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 .topo {
@@ -20,11 +21,12 @@ body {
 
 .topo-titulo {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 24px;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px 0;
 }
 
 .topo-titulo a {
@@ -37,6 +39,8 @@ body {
 
 .topo-links {
   display: flex;
+  flex-direction: column;
+  border-top: none;
 }
 
 .topo-links a {
@@ -46,14 +50,16 @@ body {
   font-weight: 600;
 }
 
-.topo-links a:hover {
-  color: #004b4c;
-}
+@media (min-width: 768px) {
+  .topo .container {
+    flex-direction: row;
+  }
 
-@media (max-width: 425px) {
-  .topo .container { flex-direction: column; }
-  .topo-titulo { margin: 10px 0; }
-  .topo-links { width: 100%; border-top: 1px solid #009fa5; justify-content: space-around;}
+  .topo-links {
+    flex-direction: row;
+    border-top: 1px solid #009fa5;
+    justify-content: flex-end;
+  }
 }
 
 .secao-topo {
@@ -73,14 +79,14 @@ body {
   margin: 0 auto;
 }
 
-.secao-largura-limitada p{
+.secao-largura-limitada p {
   font-size: 16px;
   text-align: justify;
   line-height: 25px;
 }
 
-h1,h2
-{
+h1,
+h2 {
   color: #fff;
   margin: 0;
 }
@@ -97,6 +103,7 @@ h3 {
   background-image: url('img/assets_img-fundo.jpg');
   background-size: cover;
 }
+
 .secao-background-conteudo {
   text-align: right;
   padding: 50px 20px;
@@ -129,7 +136,8 @@ h3 {
   flex-direction: column;
 }
 
-.grupo-campo input, .grupo-campo select {
+.grupo-campo input,
+.grupo-campo select {
   margin: 12px 0;
   height: 25px;
 }
@@ -171,7 +179,8 @@ h3 {
 }
 
 .localiza {
-  width: 790px;
+  width: 100%;
+  max-width: 800px;
   list-style: none;
   margin: 50px auto 50px auto;
 }
@@ -239,13 +248,6 @@ footer {
   margin: 0 0 0 10px;
 }
 
-@media(max-width: 815px)
-{
-  .img-conteudo {
-      width: 100%;
-  }
-}
-
 .sobre {
   background: #00000085;
   border-radius: 40px;
@@ -268,7 +270,8 @@ footer {
 }
 
 .suporte {
-  width: 790px;
+  width: 100%;
+  max-width: 800px;
   list-style: none;
   margin: 50px auto 50px auto;
   padding: 50px 20px;
