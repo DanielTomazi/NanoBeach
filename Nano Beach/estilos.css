@@ -60,7 +60,7 @@ body {
 .secao-largura-limitada p {
   font-size: 16px;
   text-align: justify;
-  letter-spacing: 0.5px; /* Ajuste o espaçamento entre as palavras */
+  letter-spacing: 0.5px;
 }
 
 h1,
@@ -183,9 +183,8 @@ footer {
   text-align: center;
 }
 
-/* Adicionando regra de mídia para dispositivos móveis */
-@media (max-width: 480px) {
+@media (max-width: 360px) {
   .secao-largura-limitada p {
-    letter-spacing: normal; /* Remover o espaçamento entre as palavras em dispositivos móveis */
+    letter-spacing: normal; 
   }
 }
