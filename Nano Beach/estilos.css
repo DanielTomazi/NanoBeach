@@ -50,7 +50,7 @@ body {
   color: #004b4c;
 }
 
-@media (max-width: 425px) {
+@media only screen and (max-width: 425px) {
   .topo .container { 
     flex-direction: column; 
     align-items: stretch;
