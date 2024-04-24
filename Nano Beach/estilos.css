@@ -50,7 +50,7 @@ body {
   color: #004b4c;
 }
 
-@media only screen and (max-width: 425px) {
+@media (max-width: 425px) {
   .topo .container { 
     flex-direction: column; 
     align-items: stretch;
@@ -213,7 +213,6 @@ h3 {
 footer {
   width: 100%;
   background: #5d15d1;
-  margin: 32px 0 0 0;
 }
 
 .rodape {
@@ -271,24 +270,9 @@ footer {
   padding: 10px;
 }
 
-.suporte {
-  width: 100%;
-  list-style: none;
-  margin: 50px auto 50px auto;
-  padding: 50px 20px;
-  box-sizing: border-box;
-  border: 2px solid #dcdcdc;
-  margin-top: 10px;
-  border-radius: 4px;
-}
-
 .sup {
   background: #00000085;
   border-radius: 40px;
   color: #fff;
   padding: 10px;
-}
-
-footer {
-  background-color: #00cad1;
 }
