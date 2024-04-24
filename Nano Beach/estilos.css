@@ -60,7 +60,6 @@ body {
 .secao-largura-limitada p {
   font-size: 16px;
   text-align: justify;
-  letter-spacing: 0.5px;
 }
 
 h1,
@@ -181,4 +180,15 @@ footer {
   background-color: #00cad1;
   padding: 20px 0;
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  .secao-largura-limitada p {
+    text-align: left; 
+    line-height: 1.6;
+  }
+  
+  footer {
+    font-size: 14px;
+  }
 }
