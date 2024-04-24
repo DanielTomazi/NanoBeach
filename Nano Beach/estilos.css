@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden; /* Adicionando esta linha para evitar a barra de rolagem horizontal */
+  overflow-x: hidden; 
 }
 
 .topo {
@@ -97,7 +97,7 @@ h3 {
   min-height: 500px;
   background-image: url('img/assets_img-fundo.jpg');
   background-size: cover;
-  width: 100%; /* Adicionando esta linha para ocupar toda a largura da tela */
+  width: 100%;
 }
 
 .secao-background-conteudo {
@@ -105,7 +105,7 @@ h3 {
   padding: 50px 20px;
   background: #00000085;
   border-radius: 40px;
-  width: 100%; /* Adicionando esta linha para ocupar toda a largura da tela */
+  width: 100%; 
 }
 
 .secao-conteudo {
@@ -272,8 +272,8 @@ footer {
 }
 
 .suporte {
-  width: 100%; /* Adicionando esta linha para ocupar toda a largura da tela */
-  max-width: 100%; /* Adicionando esta linha para ocupar toda a largura da tela */
+  width: 100%; 
+  max-width: 100%; 
   list-style: none;
   margin: 50px auto 50px auto;
   padding: 50px 20px;
@@ -292,4 +292,18 @@ footer {
 
 footer {
   background-color: #00cad1;
+}
+
+@media only screen and (max-width: 425px) {
+  .secao-largura-limitada {
+    padding: 0 20px;
+  }
+
+  .secao-conteudo {
+    margin: 0 0 20px;
+  }
+
+  .suporte {
+    padding: 20px;
+  }
 }
