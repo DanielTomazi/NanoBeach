@@ -51,6 +51,10 @@ body {
 }
 
 @media (max-width: 425px) {
+  .topo .container { 
+    flex-direction: column; 
+    align-items: stretch;
+  }
   .topo-titulo { margin: 10px 0; }
   .topo-links { 
     width: 100%; 
@@ -176,7 +180,8 @@ h3 {
 }
 
 .localiza {
-  width: 790px;
+  width: 100%;
+  max-width: 790px;
   list-style: none;
   margin: 50px auto 50px auto;
 }
@@ -187,7 +192,8 @@ h3 {
 }
 
 .lista-contato {
-  width: 210px;
+  width: 100%;
+  max-width: 210px;
   list-style: none;
   margin: 40px auto 40px;
 }
