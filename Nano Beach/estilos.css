@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
 }
 
 .topo {
@@ -54,7 +53,7 @@ body {
 @media (max-width: 425px) {
   .topo .container { flex-direction: column; }
   .topo-titulo { margin: 10px 0; }
-  .topo-links { width: 100%; border-top: 1px solid #009fa5; justify-content: space-around;}
+  .topo-links { width: 100%; border-top: none; justify-content: center; flex-wrap: wrap;}
 }
 
 .secao-topo {
@@ -98,6 +97,7 @@ h3 {
   background-image: url('img/assets_img-fundo.jpg');
   background-size: cover;
 }
+
 .secao-background-conteudo {
   text-align: right;
   padding: 50px 20px;
@@ -172,7 +172,8 @@ h3 {
 }
 
 .localiza {
-  width: 790px;
+  width: 100%;
+  max-width: 790px;
   list-style: none;
   margin: 50px auto 50px auto;
 }
@@ -204,6 +205,7 @@ footer {
   width: 100%;
   background: #5d15d1;
   margin: 32px 0 0 0;
+  padding: 20px 0; 
 }
 
 .rodape {
@@ -247,45 +249,16 @@ footer {
   }
 }
 
-.sobre {
-  background: #00000085;
-  border-radius: 40px;
-  color: #fff;
-  padding: 10px;
-}
 
-.pedido {
-  background: #00000085;
-  border-radius: 40px;
-  color: #fff;
-  padding: 10px;
-}
-
-.localfinal {
-  background: #00000085;
-  border-radius: 40px;
-  color: #fff;
-  padding: 10px;
-}
-
-.suporte {
-  width: 790px;
-  list-style: none;
-  margin: 50px auto 50px auto;
-  padding: 50px 20px;
-  box-sizing: border-box;
-  border: 2px solid #dcdcdc;
-  margin-top: 10px;
-  border-radius: 4px;
-}
-
+.sobre,
+.pedido,
+.localfinal,
+.suporte,
 .sup {
-  background: #00000085;
-  border-radius: 40px;
-  color: #fff;
   padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
 }
 
-footer {
-  background-color: #00cad1;
-}
+
