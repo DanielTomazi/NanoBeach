@@ -182,3 +182,10 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
+/* Adicionando regra de mídia para dispositivos móveis */
+@media (max-width: 768px) {
+  .secao-largura-limitada p {
+    letter-spacing: normal; /* Remover o espaçamento entre as palavras em dispositivos móveis */
+  }
+}
