@@ -51,9 +51,13 @@ body {
 }
 
 @media (max-width: 425px) {
-  .topo .container { flex-direction: column; }
   .topo-titulo { margin: 10px 0; }
-  .topo-links { width: 100%; border-top: 1px solid #009fa5; justify-content: space-around;}
+  .topo-links { 
+    width: 100%; 
+    border-top: 1px solid #009fa5; 
+    justify-content: space-around;
+    padding: 10px 0;
+  }
 }
 
 .secao-topo {
@@ -97,6 +101,7 @@ h3 {
   background-image: url('img/assets_img-fundo.jpg');
   background-size: cover;
 }
+
 .secao-background-conteudo {
   text-align: right;
   padding: 50px 20px;
@@ -239,13 +244,6 @@ footer {
   margin: 0 0 0 10px;
 }
 
-@media(max-width: 815px)
-{
-  .img-conteudo {
-      width: 100%;
-  }
-}
-
 .sobre {
   background: #00000085;
   border-radius: 40px;
@@ -268,7 +266,7 @@ footer {
 }
 
 .suporte {
-  width: 790px;
+  width: 100%;
   list-style: none;
   margin: 50px auto 50px auto;
   padding: 50px 20px;
