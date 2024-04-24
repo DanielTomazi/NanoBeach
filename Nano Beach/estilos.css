@@ -60,7 +60,7 @@ body {
 .secao-largura-limitada p {
   font-size: 16px;
   text-align: justify;
-  letter-spacing: 0.5px;
+  word-spacing: normal;
 }
 
 h1,
@@ -183,8 +183,8 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .secao-largura-limitada p {
-    letter-spacing: normal; 
+    word-spacing: normal; 
   }
 }
