@@ -184,7 +184,7 @@ footer {
 }
 
 /* Adicionando regra de mídia para dispositivos móveis */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .secao-largura-limitada p {
     letter-spacing: normal; /* Remover o espaçamento entre as palavras em dispositivos móveis */
   }
