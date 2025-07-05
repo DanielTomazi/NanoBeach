@@ -164,6 +164,3 @@ Projeto desenvolvido na universidade usando HTML, CSS e PHP. Créditos aos contr
 - Carregamento assíncrono
 - Animações performáticas
 
----
-
-**Desenvolvido com ❤️ para proporcionar a melhor experiência do usuário em todos os dispositivos.**
