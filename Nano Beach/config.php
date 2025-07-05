@@ -1,19 +1,37 @@
 <?php
-// Configuração da conexão com o banco de dados
 $hostname = "db4free.net";
-$username = "ma_silva_007";
+$username = "basedgoddaniels";
 $password = "1234567890";
-$database = "ma_silva_007";
+$database = "basedgoddaniels";
 
+ini_set('display_errors', 0);
+error_reporting(E_ALL);
 
-// Cria a conexão com o banco de dados
 $conn = new mysqli($hostname, $username, $password, $database);
 
-// Verifica se houve erro na conexão
+$conn->set_charset("utf8");
+
 if ($conn->connect_errno) {
-    echo "Falha ao conectar ao MySQL";
+    error_log("Erro de conexão MySQL: " . $conn->connect_error);
+    die("Erro interno do servidor. Tente novamente mais tarde.");
 }
-else {
-    echo "Conexão feita";
+
+function sanitizeInput($data) {
+    global $conn;
+    return mysqli_real_escape_string($conn, trim(htmlspecialchars($data)));
+}
+
+function validateEmail($email) {
+    return filter_var($email, FILTER_VALIDATE_EMAIL);
+}
+
+function validateDate($date, $format = 'Y-m-d') {
+    $d = DateTime::createFromFormat($format, $date);
+    return $d && $d->format($format) === $date;
+}
+
+function validatePhone($phone) {
+    $phone = preg_replace('/\D/', '', $phone);
+    return strlen($phone) >= 10 && strlen($phone) <= 11;
 }
 ?>

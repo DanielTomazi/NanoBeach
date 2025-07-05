@@ -3,15 +3,20 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Nano Beach</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <meta name="description" content="Nano Beach - A sua praia artificial. Construtora e instaladora de praias artificiais no Brasil desde 2018.">
+  <meta name="keywords" content="praia artificial, construção, diversão, família, Brasil">
+  <meta name="theme-color" content="#00cad1">
+  <title>Nano Beach - A sua praia artificial</title>
   <link rel="stylesheet" href="estilos.css">
-  
+  <link rel="icon" type="image/x-icon" href="img/assets_img1.jpg">
 </head>
 <body>
   <header class="topo">
     <div class="container">
-       
-
+        <div class="topo-titulo">
+            <h1 class="logo">Nano Beach</h1>
+        </div>
         <nav class="topo-links">
             <a href="#sobre">Sobre</a>
             <a href="#pedido">Pedido</a>
@@ -19,7 +24,11 @@
             <a href="#suporte">Suporte</a>
             <a href="#contato">Contato</a>
         </nav>
-        
+        <button class="menu-toggle" aria-label="Abrir menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </div>
 </header>
 
@@ -28,6 +37,8 @@
       <div class="secao-largura-limitada">
         <h1>Nano Beach</h1>
         <h2>A sua praia artificial</h2>
+        <p class="cta-text">Diversão e segurança para toda a família desde 2018</p>
+        <a href="#pedido" class="cta-button">Faça seu pedido</a>
       </div>
     </div>
   </section>
@@ -112,24 +123,28 @@
                                 </div>
                             </div>
         </fieldset>
-        <button type="submit" nome="submit" value="Enviar">Enviar Dados</button>
+        <button type="submit" name="submit" value="Enviar" class="btn-enviar">Enviar Dados</button>
       </form>
     </section>
     </section>
     <div id="localizacao" class="localiza">
       <h3 class="localfinal">Localização</h3>
-      <br>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7346.254844548052!2d-43.364712467659004!3d-22.98234139602229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2ed54ec2e1%3A0x4431d262cad1d163!2sAv.%20Ayrton%20Senna%2C%203000%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022775-904!5e0!3m2!1spt-BR!2sbr!4v1642532754862!5m2!1spt-BR!2sbr" width="800" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <p class="endereco-info">Venha nos visitar em nossa sede no Rio de Janeiro</p>
+      <div class="mapa-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7346.254844548052!2d-43.364712467659004!3d-22.98234139602229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2ed54ec2e1%3A0x4431d262cad1d163!2sAv.%20Ayrton%20Senna%2C%203000%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022775-904!5e0!3m2!1spt-BR!2sbr!4v1642532754862!5m2!1spt-BR!2sbr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" title="Localização Nano Beach"></iframe>
+      </div>
     </div>
-    <div id="suporte">
-      <h3 class="sup">Suporte</h3>
-    <p class="paragrafo paragrafo-contato">Se ficou interessado em nos conhecer ou se tiver dúvidas entre em contato conosco através de um dos e-mails abaixo:</p>
-            <ul class="lista-contato">
-                <li class="item-lista-contato"><a class="item-contato" href="mailto:officegeral@email.com">Escritório Geral</a></li>
-                <li class="item-lista-contato"><a class="item-contato" href="mailto:officeduvida@email.com">Escritório Dúvidas</a></li>
-                <li class="item-lista-contato"><a class="item-contato" href="mailto:officesuporte@email.com">Escritório Suporte</a></li>
-            </ul>
-          </div>
+    <div id="suporte" class="suporte-secao">
+      <div class="secao-largura-limitada">
+        <h3 class="sup">Suporte</h3>
+        <p class="paragrafo paragrafo-contato">Se ficou interessado em nos conhecer ou se tiver dúvidas entre em contato conosco através de um dos e-mails abaixo:</p>
+        <ul class="lista-contato">
+            <li class="item-lista-contato"><a class="item-contato" href="mailto:officegeral@email.com">Escritório Geral</a></li>
+            <li class="item-lista-contato"><a class="item-contato" href="mailto:officeduvida@email.com">Escritório Dúvidas</a></li>
+            <li class="item-lista-contato"><a class="item-contato" href="mailto:officesuporte@email.com">Escritório Suporte</a></li>
+        </ul>
+      </div>
+    </div>
   </main>
 
 
@@ -167,5 +182,7 @@
       </div>
   </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

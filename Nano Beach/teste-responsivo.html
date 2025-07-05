@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Responsividade - Nano Beach</title>
+    <style>
+        body { 
+            margin: 0; 
+            font-family: Arial, sans-serif; 
+            background: #f0f0f0;
+        }
+        .test-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .device-frame {
+            background: #333;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .device-screen {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 2px solid #000;
+        }
+        iframe {
+            width: 100%;
+            border: none;
+        }
+        .mobile { width: 375px; height: 667px; margin: 0 auto; }
+        .tablet { width: 768px; height: 1024px; margin: 0 auto; }
+        .desktop { width: 1200px; height: 800px; margin: 0 auto; }
+        
+        h2 { color: white; margin-bottom: 15px; }
+        
+        @media (max-width: 768px) {
+            .device-frame { padding: 10px; }
+            .mobile, .tablet, .desktop { 
+                width: 100%; 
+                height: 400px; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>Teste de Responsividade - Nano Beach</h1>
+        
+        <div class="device-frame">
+            <h2>📱 Mobile (375x667)</h2>
+            <div class="device-screen mobile">
+                <iframe src="index.html" height="667"></iframe>
+            </div>
+        </div>
+        
+        <div class="device-frame">
+            <h2>📱 Tablet (768x1024)</h2>
+            <div class="device-screen tablet">
+                <iframe src="index.html" height="1024"></iframe>
+            </div>
+        </div>
+        
+        <div class="device-frame">
+            <h2>💻 Desktop (1200x800)</h2>
+            <div class="device-screen desktop">
+                <iframe src="index.html" height="800"></iframe>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        console.log('Testando responsividade em diferentes tamanhos:');
+        console.log('Mobile: 375px');
+        console.log('Tablet: 768px');
+        console.log('Desktop: 1200px+');
+    </script>
+</body>
+</html>
