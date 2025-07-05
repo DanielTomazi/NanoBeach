@@ -1,6 +1,6 @@
 # Nano Beach - Website Responsivo
 
-## 🏖️ Sobre o Projeto
+## Sobre o Projeto
 
 O Nano Beach é um website moderno e totalmente responsivo para uma empresa construtora e instaladora de praias artificiais. O projeto oferece serviços de praias artificiais para clientes em regiões sem litoral, como Goiás e outras áreas não costeiras do Brasil.
 
@@ -9,22 +9,22 @@ Teste o website aqui: https://nano-beach.vercel.app
 
 ![image](https://github.com/DanielTomazi/NanoBeach/blob/main/Nano%20Beach/img/img-demo.png)
 
-## ✨ Principais Melhorias Implementadas
+## Principais Melhorias Implementadas
 
-### 🎨 Design Moderno
+### Design Moderno
 - Interface completamente redesenhada com visual contemporâneo
 - Gradientes e sombras suaves para melhor experiência visual
 - Tipografia aprimorada e hierarquia visual clara
 - Paleta de cores harmoniosa baseada no azul/turquesa
 
-### 📱 Responsividade Total
+### Responsividade Total
 - Design totalmente responsivo para todos os dispositivos
 - Menu hambúrguer para dispositivos móveis
 - Layout adaptativo que se ajusta automaticamente
 - Otimização específica para tablets e smartphones
 - Suporte para orientação landscape e portrait
 
-### 🚀 Funcionalidades Interativas
+### Funcionalidades Interativas
 - Menu mobile com animações suaves
 - Scroll suave entre seções
 - Validação de formulário em tempo real
@@ -32,28 +32,28 @@ Teste o website aqui: https://nano-beach.vercel.app
 - Feedback visual para estados de erro
 - Animações ao rolar a página
 
-### ♿ Acessibilidade
+### Acessibilidade
 - Navegação por teclado aprimorada
 - Estados de foco visíveis
 - Suporte para leitores de tela
 - Contraste adequado de cores
 - Estrutura semântica HTML5
 
-### 🔧 Otimizações Técnicas
+### Otimizações Técnicas
 - Código CSS organizado e otimizado
 - JavaScript modular e performático
 - SEO básico implementado (meta tags)
 - Carregamento otimizado de recursos
 - Suporte para redução de movimento (prefers-reduced-motion)
 
-## 📱 Breakpoints Responsivos
+## Breakpoints Responsivos
 
 - **Desktop**: 1200px+
 - **Tablet**: 768px - 1199px
 - **Mobile Grande**: 480px - 767px
 - **Mobile Pequeno**: até 479px
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - HTML5 semântico
 - CSS3 com Flexbox e Grid
@@ -62,9 +62,9 @@ Teste o website aqui: https://nano-beach.vercel.app
 - Design responsivo com mobile-first
 - Animações CSS e JavaScript
 
-## 📋 Funcionalidades do Site
+## Funcionalidades do Site
 
-### 🏠 Página Principal
+### Página Principal
 - Hero section com call-to-action
 - Seção "Sobre" com informações da empresa
 - Formulário de pedido completo e validado
@@ -72,7 +72,7 @@ Teste o website aqui: https://nano-beach.vercel.app
 - Seção de suporte com contatos
 - Footer com informações de contato e redes sociais
 
-### 📝 Formulário de Pedido
+### Formulário de Pedido
 - Validação em tempo real
 - Máscaras de entrada
 - Verificação de datas
@@ -80,12 +80,12 @@ Teste o website aqui: https://nano-beach.vercel.app
 - Feedback visual de erros
 - Prevenção de envio com dados inválidos
 
-### 🗺️ Mapa Integrado
+### Mapa Integrado
 - Google Maps responsivo
 - Localização da empresa
 - Container responsivo
 
-## 🎯 Melhorias de UX/UI
+## Melhorias de UX/UI
 
 1. **Navegação Intuitiva**: Menu fixo com scroll suave
 2. **Feedback Visual**: Estados hover, focus e loading
@@ -93,7 +93,7 @@ Teste o website aqui: https://nano-beach.vercel.app
 4. **Design Limpo**: Espaçamento adequado e hierarquia visual
 5. **Performance**: Animações otimizadas e carregamento rápido
 
-## 📱 Compatibilidade Mobile
+## Compatibilidade Mobile
 
 - Menu hambúrguer funcional
 - Touch-friendly (botões com tamanho adequado)
@@ -101,7 +101,7 @@ Teste o website aqui: https://nano-beach.vercel.app
 - Formulário otimizado para dispositivos móveis
 - Imagens responsivas
 
-## 🔍 SEO Implementado
+## SEO Implementado
 
 - Meta tags essenciais
 - Estrutura HTML semântica
@@ -109,13 +109,13 @@ Teste o website aqui: https://nano-beach.vercel.app
 - Títulos hierárquicos corretos
 - Meta description e keywords
 
-## 🚀 Como Usar
+## Como Usar
 
 1. Abra o arquivo `index.html` em qualquer navegador moderno
 2. O site é totalmente funcional localmente
 3. Para o formulário funcionar, configure o arquivo `enviar.php` no servidor
 
-## 📂 Estrutura de Arquivos
+## Estrutura de Arquivos
 
 ```
 Nano Beach/
@@ -130,7 +130,7 @@ Nano Beach/
     └── ...
 ```
 
-## 🎨 Paleta de Cores
+## Paleta de Cores
 
 - **Primária**: #00cad1 (Turquesa)
 - **Secundária**: #0099a3 (Azul escuro)
@@ -138,7 +138,7 @@ Nano Beach/
 - **Fundo**: #f8f9fa (Cinza claro)
 - **Erro**: #e74c3c (Vermelho)
 
-## 👥 Créditos dos Contribuidores
+## Créditos dos Contribuidores
 
 Projeto desenvolvido na universidade usando HTML, CSS e PHP. Créditos aos contribuidores deste código/projeto:
 
@@ -148,7 +148,7 @@ Projeto desenvolvido na universidade usando HTML, CSS e PHP. Créditos aos contr
 - Paulo Henrique - GitHub: PaulofrontHenrique
 - Fernando Bilha - GitHub: liinqy
 
-## 🔧 Navegadores Suportados
+## Navegadores Suportados
 
 - Chrome 70+
 - Firefox 65+
@@ -156,7 +156,7 @@ Projeto desenvolvido na universidade usando HTML, CSS e PHP. Créditos aos contr
 - Edge 44+
 - Opera 57+
 
-## 📈 Performance
+## Performance
 
 - CSS otimizado e minificado
 - JavaScript modular
